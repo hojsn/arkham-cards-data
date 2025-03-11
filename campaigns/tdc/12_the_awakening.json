@@ -1,0 +1,134 @@
+{
+  "id": "the_awakening",
+  "scenario_name": "The Awakening",
+  "full_name": "Interlude III: The Awakening",
+  "header": "Interlude III",
+  "type": "interlude",
+  "icon": "",
+  "setup": [
+    "intro_1",
+    "check_at_least_one_artifact",
+    "intro_4",
+    "next_scenario"
+  ],
+  "steps": [
+    {
+      "id": "next_scenario",
+      "hidden": true,
+      "effects": [
+        {
+          "type": "campaign_data",
+          "setting": "next_scenario",
+          "scenario": "return_to_arkham"
+        }
+      ]
+    },
+    {
+      "id": "intro_1",
+      "type": "story",
+      "text": ""
+    },
+    {
+      "id": "check_at_least_one_artifact",
+      "text": "Check Campaign Log. If there is at least 1 artifact marked in \"Artifacts Obtained\"",
+      "type": "branch",
+      "condition": {
+        "type": "multi",
+        "conditions": [
+          {
+            "type": "math",
+            "opA": {
+              "type": "campaign_log_count",
+              "section": "artifacts_obtained",
+              "id": "$num_entries"
+            },
+            "opB": {
+              "type": "constant",
+              "value": 1
+            },
+            "operation": "compare",
+            "options": [
+              {
+                "numCondition": 0
+              },
+              {
+                "numCondition": 1
+              }
+            ]
+          }
+        ],
+        "count": 1,
+        "options": [
+          {
+            "boolCondition": true,
+            "steps": ["intro_2", "change_symbol_tokens_bad"]
+          },
+          {
+            "boolCondition": false,
+            "steps": ["intro_3", "change_symbol_tokens_okay"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_2",
+      "type": "story",
+      "text": ""
+    },
+    {
+      "id": "change_symbol_tokens_bad",
+      "text": "Remove all [cultist], [tablet], and [elder_thing] tokens form the chaos bag. Then add 2 [cultist], 2 [tablet] and 2 [elder_thing] tokens for the remainder of the campaign.",
+      "effects": [
+        {
+          "type": "remove_chaos_token",
+          "tokens": [
+            "cultist", "cultist", "cultist", "cultist",
+            "tablet", "tablet", "tablet", "tablet",
+            "elder_thing", "elder_thing", "elder_thing", "elder_thing"
+          ]
+        },
+        {
+          "type": "add_chaos_token",
+          "tokens": [
+            "cultist", "cultist",
+            "tablet", "tablet",
+            "elder_thing", "elder_thing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro_3",
+      "type": "story",
+      "text": ""
+    },
+
+    {
+      "id": "change_symbol_tokens_okay",
+      "text": "Remove all [cultist], [tablet], and [elder_thing] tokens form the chaos bag. Then add [cultist], [tablet] and 2 [elder_thing] tokens for the remainder of the campaign.",
+      "effects": [
+        {
+          "type": "remove_chaos_token",
+          "tokens": [
+            "cultist", "cultist", "cultist", "cultist",
+            "tablet", "tablet", "tablet", "tablet",
+            "elder_thing", "elder_thing", "elder_thing", "elder_thing"
+          ]
+        },
+        {
+          "type": "add_chaos_token",
+          "tokens": [
+            "cultist",
+            "tablet",
+            "elder_thing", "elder_thing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro_4",
+      "type": "story",
+      "text": ""
+    }
+  ]
+}

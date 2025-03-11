@@ -1,0 +1,169 @@
+{
+  "id": "return_to_arkham",
+  "scenario_name": "Return to Arkham",
+  "full_name": "Interlude VI: Return to Arkham",
+  "header": "Interlude VI",
+  "type": "interlude",
+  "icon": "",
+  "setup": [
+    "check_at_least_one_artifact",
+    "gain_task_xp",
+    "explain_check_tasks",
+    "check_walking_with_faith",
+    "next_scenario"
+  ],
+  "steps": [
+    {
+      "type": "campaign_data",
+      "setting": "next_scenario",
+      "scenario": "the_doom_of_arkham"
+    },
+    {
+      "id": "check_at_least_one_artifact",
+      "text": "Check Campaign Log. If there is at least 1 artifact marked in \"Artifacts Obtained\"",
+      "type": "branch",
+      "condition": {
+        "type": "multi",
+        "conditions": [
+          {
+            "type": "math",
+            "opA": {
+              "type": "campaign_log_count",
+              "section": "artifacts_obtained",
+              "id": "$num_entries"
+            },
+            "opB": {
+              "type": "constant",
+              "value": 1
+            },
+            "operation": "compare",
+            "options": [
+              {
+                "numCondition": 0
+              },
+              {
+                "numCondition": 1
+              }
+            ]
+          }
+        ],
+        "count": 1,
+        "options": [
+          {
+            "boolCondition": true,
+            "steps": ["intro_1"]
+          },
+          {
+            "boolCondition": false,
+            "steps": ["intro_2"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_1",
+      "type": "story",
+      "text": ""
+    },
+    {
+      "id": "intro_2",
+      "type": "story",
+      "text": ""
+    },
+    {
+      "id": "gain_task_xp",
+      "text": "For each progress you have marked on your task, you (and only you) gain 1 additional experience point."
+    },
+    {
+      "id": "explain_check_tasks",
+      "text": "Each investigator resolves his or her corresponding task on pages."
+    },
+    {
+      "id": "check_walking_with_faith",
+      "hidden": true,
+      "type": "branch",
+      "condition": {
+        "type": "campaign_log",
+        "section": "hidden",
+        "id": "task_walking_with_faith",
+        "options": [
+          {
+            "boolCondition": true,
+            "steps": [
+              "actually_check_walking_with_faith"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "earn_walking_with_faith_xp",
+      "hidden": true,
+      "type": "branch",
+      "condition": {
+        "type": "campaign_log_cards",
+        "section": "hidden",
+        "id": "task_walking_in_faith",
+        "options": [
+          {
+            "boolCondition": true,
+            "effects": [
+              {
+                "type": "earn_xp",
+                "investigator": "$input_value"
+              },
+              {
+                "type": "campaign_log_investigator_count",
+                "section": "task_progress",
+                "id": "$count",
+                "investigator": "$input_value",
+                "operation": "add",
+                "value": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "actually_check_walking_with_faith",
+      "title": "Walking with Faith",
+      "type": "branch",
+      "text": "If there are 5 or more progress marked in your task:",
+      "condition": {
+        "type": "multi",
+        "count": 1,
+        "conditions": [
+          {
+            "type": "math",
+            "opA": {
+              "type": "campaign_log_count",
+              "section": "hidden",
+              "id": "task_walking_with_faith_count"
+            },
+            "opB": {
+              "type": "constant",
+              "value": 5
+            },
+            "options": [
+              {
+                "numCondition": 0
+              },
+              {
+                "numCondition": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          {
+            "boolCondition": true,
+            "steps": [
+              "walking_with_faith_good_story"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
