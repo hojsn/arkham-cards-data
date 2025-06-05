@@ -29,9 +29,9 @@ msgid ""
 "\"Should you accept, I shall absolve you of any remaining debt and provide you enough money to retire comfortably. <i>Very</i> comfortably. And, of course, lend my assistance for your <i>other</i> concerns.\"\n"
 "Your mind wanders back to those other \"concerns.\""
 msgstr ""
-"«Il s’agit d’une relique singulière d’origine préhistorique, voire préhu-maine », dit la voix de Randall en rompant le charme. La suite de l’histoire de l’excentrique antiquaire vous laisse perplexe. Il vous narre la légende d’une ancienne lutte cosmique et vous explique pourquoi il pense que la terre entière est sur le point de connaître une apocalypse, semblable à celle qui a détruit le créateur de la statuette.\n"
-"«L’histoire d’un grand déluge est présente dans toutes les histoires des hommes, dans toutes les mythologies. Le récit d’un cataclysme. Des légendes décrivent une grande cité-État : un bastion de la connaissance et de la puis-sance, qui a sombré sous les vagues. L’humanité lui a donné de nombreux noms. L’Atlantide. Mu. Lémurie. Mais son véritable nom, un nom d’avant l’Histoire, est <i><b>R’lyeh</b></i>. »\n"
-"« Grâce à des recherches minutieuses et à l’aide d’un marin fou nommé Gustaf, j’ai pu déterminer les coordonnées relatives de l’ancienne cité. Il s’agit d’une portion d’océan dans le Pacifique Sud où de nombreux voiliers ont fait naufrage ou ont disparu sans explication. Ce qui m’amène à mon offre. J ai besoin de quelqu’un d’audacieux et d’ingénieux pour mener une expédition vers l’ancienne cité. Quelqu’un qui rapportera les preuves de son savoir ancestral, étudiera ses secrets, contemplera ses merveilles. J ai besoin que cette personne soit vous », dit Randall en vous regardant, avant de poser les yeux sur Ruby et Andy.\n"
+"«Il s’agit d’une relique singulière d’origine préhistorique, voire préhumaine », dit la voix de Randall en rompant le charme. La suite de l’histoire de l’excentrique antiquaire vous laisse perplexe. Il vous narre la légende d’une ancienne lutte cosmique et vous explique pourquoi il pense que la terre entière est sur le point de connaître une apocalypse, semblable à celle qui a détruit le créateur de la statuette.\n"
+"«L’histoire d’un grand déluge est présente dans toutes les histoires des hommes, dans toutes les mythologies. Le récit d’un cataclysme. Des légendes décrivent une grande cité-État : un bastion de la connaissance et de la puissance, qui a sombré sous les vagues. L’humanité lui a donné de nombreux noms. L’Atlantide. Mu. Lémurie. Mais son véritable nom, un nom d’avant l’Histoire, est <i><b>R’lyeh</b></i>. »\n"
+"« Grâce à des recherches minutieuses et à l’aide d’un marin fou nommé Gustaf, j’ai pu déterminer les coordonnées relatives de l’ancienne cité. Il s’agit d’une portion d’océan dans le Pacifique Sud où de nombreux voiliers ont fait naufrage ou ont disparu sans explication. Ce qui m’amène à mon offre. J'ai besoin de quelqu’un d’audacieux et d’ingénieux pour mener une expédition vers l’ancienne cité. Quelqu’un qui rapportera les preuves de son savoir ancestral, étudiera ses secrets, contemplera ses merveilles. J'ai besoin que cette personne soit vous », dit Randall en vous regardant, avant de poser les yeux sur Ruby et Andy.\n"
 "« Si vous acceptez, je vous déchargerai de toute dette restante et vous donnerai assez d’argent pour prendre une retraite confortable. <i>Très</i> confortable. Et, bien sûr, je vous apporterai mon aide concernant vos <i>autres</i> sujets d’inquiétude. »\n"
 "Votre esprit s’attarde sur ces « autres sujets d’inquiétude »."
 
@@ -56,7 +56,7 @@ msgid ""
 "After Andy negotiates for a comprehensive supply of film, and Ruby ups her commission,Tillinghast outlines the plan for the expedition. Tomorrow, a train will take you to San Francisco, where the <i>Cassandra</i> will sail you down to the provided coordinates in the South Pacific. There is an excited, almost childlike glee as the antiquarian outlines the details. \"I've sent supplies enough to last the entire expedition several months if needed. That said, be prepared for anything.\""
 msgstr ""
 "Quelles que soient les raisons qui le poussent à la cachotterie, l’offre vous paraît trop tentante pour être refusée. Ruby et Andy acquiescent. Un sourire familier se dessine sur le visage de Tillinghast. « C’est parfait. J’espérais que vous accepteriez. C’est vraiment la chance de votre vie. Je vous promets qu’après cela, rien ne sera <i>plus jamais pareil</i>. »\n"
-"Apres qu Andy ait négocié une quantité conséquente de pellicules photographiques et que Ruby ait obtenu une augmentation, Tillinghast vous présente le calendrier de l’expédition. Demain, un train vous emmènera à San Francisco, où le <i>Cassandra</i> vous conduira aux coordonnées indiquées dans le Pacifique Sud. L’antiquaire vous en décrit les détails avec une excitation presque puérile. « J’ai envoyé suffisamment de provisions pour que l’expédition entière puisse tenir plusieurs mois si nécessaire. Cela dit, préparez-vous à toute éventualité. »"
+"Apres qu'Andy ait négocié une quantité conséquente de pellicules photographiques et que Ruby ait obtenu une augmentation, Tillinghast vous présente le calendrier de l’expédition. Demain, un train vous emmènera à San Francisco, où le <i>Cassandra</i> vous conduira aux coordonnées indiquées dans le Pacifique Sud. L’antiquaire vous en décrit les détails avec une excitation presque puérile. « J’ai envoyé suffisamment de provisions pour que l’expédition entière puisse tenir plusieurs mois si nécessaire. Cela dit, préparez-vous à toute éventualité. »"
 
 msgid "If an investigator has the [[Agency]], [[Detective]], or [[Criminal]] trait:"
 msgstr "Si un investigateur a le trait [[Agence]], [[Détective]] ou [[Criminel]] :"
@@ -65,7 +65,7 @@ msgid "Randall's operatic tale of the artifact's  acquisition seems needlessly c
 msgstr "Le récit de Randall sur l’acquisition de l’artéfact semble inutilement artificiel. Vous avez toutes les raisons de croire que la statue antique a été obtenue par des moyens peu légitimes. Malheureusement, cela ne vous dit rien sur les véritables origines de la relique."
 
 msgid "In player order, each investigator chooses a different Task."
-msgstr "Dans l’ordre des joueurs, chaque investigateur doit choisir une Tâche différente[."
+msgstr "Dans l’ordre des joueurs, chaque investigateur doit choisir une Tâche différente."
 
 msgid "Choose a task:"
 msgstr "Choisissez une Tâche :"
@@ -74,7 +74,7 @@ msgid "No Place Like Home"
 msgstr "On n’Est Bien que Chez Soi"
 
 msgid "Recommended for Survivor ([survivor]), [[Drifter]], [[Hunter]], or [[Wayfarer]] investigators."
-msgstr "Recommandée aux investigateurs Survivant ([survivor]), [[Drifter]], [[Chasseur]] ou [[Voyageur]]."
+msgstr "Recommandée aux investigateurs Survivant ([survivor]), [[Vagabond]], [[Chasseur]] ou [[Voyageur]]."
 
 msgid "Task Progress - No Place Like Home:"
 msgstr "Progression de la Tâche - On n’Est Bien que Chez Soi :"
@@ -128,7 +128,7 @@ msgid "Dreams of Destruction"
 msgstr "Rêves de Destruction"
 
 msgid "Recommended for Mystic ([mystic]), [[Artist]], [[Clairvoyant]], [[Cultist]], [[Cursed]], [[Dreamer]], [[Performer]], or [[Sorcerer]] investigators."
-msgstr "Recommandée aux investigateurs Mystique ([mystic]), [[Artiste]], [[Clairvoyant]], [[Cultiste]], [[Maudit]], [[Rêveur]], [[Interprète]] ou [[Sorcier]]."
+msgstr "Recommandée aux investigateurs Mystique ([Mystic]), [[Artiste]], [[Clairvoyant]], [[Cultiste]], [[Maudit]], [[Rêveur]], [[Interprète]] ou [[Sorcier]]."
 
 msgid "Task Progress - Dreams of Destruction:"
 msgstr "Progression de la Tâche - Rêves de Destruction :"
@@ -136,7 +136,7 @@ msgstr "Progression de la Tâche - Rêves de Destruction :"
 msgid "Plumb the Depths"
 msgstr "Sonder les Profondeurs"
 
-msgid "Recommended for Seeker ([seeker]), [[Agency]], [[Clairvoyant]], [[Detective]], [[Miskatonic]], [[Scholer]], or [[Reporter]] investigators."
+msgid "Recommended for Seeker ([seeker]), [[Agency]], [[Clairvoyant]], [[Detective]], [[Miskatonic]], [[Scholar]], or [[Reporter]] investigators."
 msgstr "Recommandée aux investigateurs Chercheur ([seeker]), [[Agence]], [[Clairvoyant]], [[Détective]], [[Miskatonic]], [[Érudit]] ou [[Reporter]]."
 
 msgid "Task Progress - Plumb the Depths:"
@@ -160,7 +160,7 @@ msgstr "Dans votre Carnet de Campagne, indiquez que la Tâche de votre investiga
 msgid "Search the <i>Tasks</i> encounter set for the Walk in Faith permanent story asset and add it to your deck for the remainder of the campaign."
 msgstr "Cherchez le soutien d’histoire permanent Marcher Dans la Foi dans le set de rencontre <i>Tâches</i> et ajoutez-le à votre deck pour le reste de la campagne."
 
-msgid "Sometimes you wonder if your old associates still talk about you. You were a bright star, rising through the ranks. There was nothing you couldn't do.. until your sudden and ignominious fall from grace. Whatever favor you curried has certainly faded by now. Your former colleague saw to it that you'd never come by honest work, so you turned to Tillinghast to make a living. He's often spoken of his connections in Arkham; you've always hoped he might help you get your old position back and restore your good name."
+msgid "Sometimes you wonder if your old associates still talk about you. You were a bright star, rising through the ranks. There was nothing you couldn't do... until your sudden and ignominious fall from grace. Whatever favor you curried has certainly faded by now. Your former colleague saw to it that you'd never come by honest work, so you turned to Tillinghast to make a living. He's often spoken of his connections in Arkham; you've always hoped he might help you get your old position back and restore your good name."
 msgstr "Parfois, vous vous demandez si vos anciens associés parlent encore de vous. Vous aviez gravi les échelons comme une étoile filante. Il n’y avait rien que vous ne puissiez faire… jusqu’à ce que vous tombiez soudainement et ignominieusement en disgrâce. Les faveurs dont vous aviez bénéficié jusque-là ne sont plus qu’un lointain souvenir. Votre ancien collègue a fait en sorte qu’on ne vous propose plus aucun travail honnête. Vous vous êtes donc tourné vers Tillinghast pour gagner votre vie. Il parle souvent de ses relations à Arkham. Vous espérez toujours qu’il vous aidera à retrouver votre ancien poste et à rétablir votre réputation."
 
 msgid "In your Campaign Log, record \"Toe the Line\" as your investigator's Task."
@@ -205,7 +205,7 @@ msgstr "Dans votre Carnet de Campagne, indiquez que la Tâche de votre investiga
 msgid "Search the <i>Tasks</i> encounter set for the Dreams of Destruction permanent story asset and add it to your deck for the remainder of the campaign."
 msgstr "Cherchez le soutien d’histoire permanent Rêves de Destruction dans le set de rencontre <i>Tâches</i> et ajoutez-le à votre deck pour le reste de la campagne."
 
-msgid "You never meant to get involved with Randall, or the mob, or any of this. In fact, you curse the Ime of inquiry that led you out past the edges of your safe old life and into this new one. But you can never suppress the inexorable itch to understand the world around you. Although you have been warned time and again that your curiosity would be the end of you, you can't deny the allure of the unknown. Randall has promised you all that and more. This job will make your career, put you on the map, if you can just play your cards right."
+msgid "You never meant to get involved with Randall, or the mob, or any of this. In fact, you curse the line of inquiry that led you out past the edges of your safe old life and into this new one. But you can never suppress the inexorable itch to understand the world around you. Although you have been warned time and again that your curiosity would be the end of you, you can't deny the allure of the unknown. Randall has promised you all that and more. This job will make your career, put you on the map, if you can just play your cards right."
 msgstr "Vous n’avez jamais eu l’intention de faire affaire avec Randall, ni avec la mafia ni avec rien de tout cela. En fait, vous maudissez les circonstances qui vous ont conduit à quitter le confort de votre ancienne vie pour accepter cette nouvelle existence. Mais vous ne pourrez jamais étouffer l’inexorable envie de comprendre le monde qui vous entoure. Bien qu’on vous ait averti à maintes reprises que votre curiosité causerait votre perte, vous ne pouvez pas ignorer votre attrait de l’inconnu. Randall vous a promis que vous seriez servi au-delà de vos espérances. Ce travail fera décoller votre carrière. Si vous jouez bien les cartes que vous avez en main, vous allez devenir quelqu’un."
 
 msgid "In your Campaign Log, record \"Plumb the Depths\" as your investigator's Task."
@@ -213,3 +213,6 @@ msgstr "Dans votre Carnet de Campagne, indiquez que la Tâche de votre investiga
 
 msgid "Search the <i>Tasks</i> encounter set for the Plumb the Depths permanent story asset and add it to your deck for the remainder of the campaign."
 msgstr "Cherchez le soutien d’histoire permanent Sonder les Profondeurs dans le set de rencontre <i>Tâches</i> et ajoutez-le à votre deck pour le reste de la campagne."
+
+msgid "Chosen task:"
+msgstr ""

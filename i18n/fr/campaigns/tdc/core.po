@@ -149,7 +149,7 @@ msgid "Some enemies in this campaign have the relentless keyword. During the ene
 msgstr "Certains ennemis de cette campagne ont le mot-clé Infatigable. Lors de la phase des Ennemis (à l’étape structurelle 3.3), chaque ennemi ayant le mot-clé Infatigable qui a attaqué à cette phase (même si cette attaque a été annulée) se redresse et attaque une deuxième fois le ou les investigateurs(s) avec lesquels ils sont engagés."
 
 msgid ""
-"Aan additional cost for a card with the seal keyword to enter play, its controller must search the chaos bag for the specified chaos token and place it on top of the card, thereby sealing the token. If there is a choice of which token to seal, the card's controller chooses. If the specified token is not in the chaos bag, the card cannot enter play.\n"
+"As an additional cost for a card with the seal keyword to enter play, its controller must search the chaos bag for the specified chaos token and place it on top of the card, thereby sealing the token. If there is a choice of which token to seal, the card's controller chooses. If the specified token is not in the chaos bag, the card cannot enter play.\n"
 "A sealed chaos token is not considered to be in the chaos bag, and therefore cannot be revealed from the chaos bag as part of a skill test or ability.\n"
 "When a chaos token is \"released,\" it is returned to the chaos bag and is no longer considered sealed. <b>If a card with one or more chaos tokens sealed on it leaves play for any reason, any chaos tokens sealed on it are immediately released</b>.\n"
 "Some cards (with or without the seal keyword) may also have abilities that seal one or more chaos tokens as part of their effect. This is done following the same process as above: searching the chaos bag for the specified token, removing it from the chaos bag, and placing it on the card. If the specified token is not in the chaos bag, the effect fails."
@@ -182,3 +182,6 @@ msgstr "Quand le jeu vous demande d’inscrire ou d’effacer 1 ou plusieurs pro
 
 msgid "Completing Task objectives will earn experience and /or rewards later in the campaign. The more times an investigator completes their Task, the better. For a more positive outcome, do not ignore your Task!"
 msgstr "Accomplir les objectifs des Tâches vous permet de recevoir de l’expérience et/ou des récompenses ultérieurement dans la campagne. Un investigateur est encouragé à accomplir sa tâche le plus souvent possible. Tenez compte de votre Tâche, cela vous apportera des avantages !"
+
+msgid "Also gather <i>The Inescapable</i> encounter set."
+msgstr "Réunissez également le set de Rencontre <i>L'Inéluctable.</i>"

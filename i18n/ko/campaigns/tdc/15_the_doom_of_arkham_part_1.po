@@ -120,13 +120,28 @@ msgstr ""
 msgid "Flooded"
 msgstr ""
 
+msgid "Downtown"
+msgstr ""
+
+msgid "Easttown"
+msgstr ""
+
+msgid "Northside"
+msgstr ""
+
+msgid "St. Mary's Hospital"
+msgstr ""
+
+msgid "Each investigator earns 1 bonus experience granted by the act."
+msgstr ""
+
 msgid "<i>\"We're ready to fight.\"</i>"
 msgstr ""
 
 msgid "You wish to continue playing immediately."
 msgstr ""
 
-msgid "<i>\"We need more time.\""
+msgid "<i>\"We need more time.\"</i>"
 msgstr ""
 
 msgid "You wish to take a break and proceed the next time you play."

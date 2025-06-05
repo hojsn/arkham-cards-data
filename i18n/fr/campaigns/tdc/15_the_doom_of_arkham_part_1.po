@@ -135,7 +135,7 @@ msgstr "<i>« Nous sommes prêts à nous battre. »</i>"
 msgid "You wish to continue playing immediately."
 msgstr "Vous souhaitez continuer à jouer immédiatement."
 
-msgid "<i>\"We need more time.\""
+msgid "<i>\"We need more time.\"</i>"
 msgstr "<i>« Nous avons besoin de plus de temps. »</i>"
 
 msgid "You wish to take a break and proceed the next time you play."
@@ -166,6 +166,10 @@ msgid ""
 "[tablet]: -3. If this test fails, place 1 of your clues on your location.\n"
 "[elder_thing]: -2. If your location is flooded, reveal another token."
 msgstr ""
+"[skull]: -X. X est le membre de lieux sans carte Scénario sous eux divisé par deux (arrondir au supérieur).\n"
+"[cultist]: -3. En cas d'échec à ce test, placez 1 fatalité sur l'ennemi sans fatalité sur lui le plus proche.\n"
+"[tablet]: -3. En cas d'échec à ce test, placez 1 de vos indices dans votre lieu.\n"
+"[elder_thing]: -2. Si votre lieu est inondé, révélez un autre pion."
 
 msgid ""
 "[skull]: -X. X is the number of locations with no scenario cards beneath them.\n"
@@ -173,6 +177,28 @@ msgid ""
 "[tablet]: -5. If this test fails, place 1 of your clues on your location.\n"
 "[elder_thing]: -4. If your location is flooded, reveal another token."
 msgstr ""
+"[skull]: -X. X est le nombre de lieux sans carte Scénario sous eux.\n"
+"[cultist]: -5. En cas d'échec à ce test, placez 1 fatalité sur l'ennemi sans fatalité sur lui le plus proche.\n"
+"[tablet]: -5. En cas d'échec à ce test, placez 1 de vos indices dans votre lieu.\n"
+"[elder_thing]: -4. Si votre lieu est inondé, révélez un autre pion."
 
 msgid "Cross out Shard of Y'ch'lecht."
-msgstr ""
+msgstr "Rayez Fragment d'Y'ch'lecht."
+
+msgid "Downtown"
+msgstr "Centre-Ville"
+
+msgid "Easttown"
+msgstr "Quartier Est"
+
+msgid "Northside"
+msgstr "Quartier Nord"
+
+msgid "Southside"
+msgstr "Quarier Sud"
+
+msgid "St. Mary's Hospital"
+msgstr "Hôpital St. Mary"
+
+msgid "Each investigator earns 1 bonus experience granted by the act."
+msgstr "Chaque investigateur gagne 1 point d'expérience bonus offert par l'Acte."
